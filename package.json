@@ -2,8 +2,6 @@
     "name": "@bucky24/dep-graph",
     "version": "0.1.0",
     "scripts": {
-        "build": "babel",
-        "publish": "npm run build; npm publish",
         "basicExample": "webpack serve --config ./examples/basicExample/webpack.config.js"
     },
     "devDependencies": {
@@ -16,12 +14,12 @@
         "css-loader": "5.0.1",
         "file-loader": "6.2.0",
         "html-webpack-plugin": "5.2.0",
+        "react": "17.0.1",
         "react-dom": "17.0.1",
         "style-loader": "2.0.0",
         "webpack": "5.24.2",
         "webpack-cli": "4.9.0",
-        "webpack-dev-server": "4.3.1",
-        "react": "17.0.1"
+        "webpack-dev-server": "4.3.1"
     },
     "dependencies": {
         "prop-types": "15.7.2"
