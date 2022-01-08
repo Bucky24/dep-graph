@@ -1,6 +1,6 @@
 {
     "name": "@bucky24/dep-graph",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "scripts": {
         "build": "babel src --out-dir build",
         "basicExample": "webpack serve --config ./examples/basicExample/webpack.config.js",
@@ -34,5 +34,5 @@
     "peerDependencies": {
         "@bucky24/react-canvas": "1.7.x"
     },
-    "main": "./src/index.js"
+    "main": "./build/index.js"
 }
