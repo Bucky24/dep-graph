@@ -29,7 +29,7 @@
         "prop-types": "15.7.2"
     },
     "files": [
-        "src"
+        "build"
     ],
     "peerDependencies": {
         "@bucky24/react-canvas": "1.7.x"
