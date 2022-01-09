@@ -21,6 +21,6 @@ A GraphNode is a node on the graph. It must be an object with the following prop
 | Property | Description |
 | ----------- | ----------- |
 | id | A unique ID of the node |
-| text | The label for the node |
+| title | The label for the node |
 | connections | A list of IDs that this node has connections to |
 | color | The color of the node |
